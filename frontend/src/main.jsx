@@ -1,13 +1,10 @@
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 
-// 1. Global styles (Colors, Typography, Resets)
+// main apple typography and layout styles and other global styles
 import './index.css';
-
-// 2. Component styles (Form-specific styling)
 import './components/StudentForm.css';
-
-// 3. Application Entry Point
+// Application Entry Point
 import App from './App.jsx';
 
 createRoot(document.getElementById('root')).render(
@@ -15,3 +12,5 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 );
+
+

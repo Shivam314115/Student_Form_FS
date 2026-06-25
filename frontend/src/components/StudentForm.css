@@ -1,4 +1,4 @@
-/* Card Container */
+
 .student-form {
   background: #3c3c3e;
   padding: 2.5rem;
@@ -9,19 +9,16 @@
   color: white;
 }
 
-/* Typography */
 h2 {
   font-weight: 600;
   text-align: center;
   margin-bottom: 1.5rem;
 }
 
-/* Layout */
 .input-group {
   margin-bottom: 1rem;
 }
 
-/* Inputs and Selects */
 input, select {
   width: 100%;
   padding: 14px;
@@ -33,7 +30,6 @@ input, select {
   font-family: inherit; /* Inherits the Apple font stack from index.css */
 }
 
-/* Buttons */
 button {
   width: 100%;
   padding: 14px;
@@ -51,7 +47,6 @@ button:hover {
   background-color: #0077ed;
 }
 
-/* Inline Validation Errors */
 .error {
   color: #ff3b30;
   font-size: 12px;
@@ -60,7 +55,6 @@ button:hover {
   padding-left: 5px;
 }
 
-/* Status Message Box (Success/Error) */
 .status-msg {
   padding: 12px;
   border-radius: 10px;

@@ -69,7 +69,14 @@ Create a database named `student_db` in MySQL, or change the database name in `b
 
 For example:
 
-```bash
+
+
+
+
+
+```
+bash command 
+
 mysql -u root -p
 CREATE DATABASE student_db;
 EXIT;
@@ -79,14 +86,18 @@ EXIT;
 
 Open a terminal in the `backend` folder and run:
 
-```bash
+
+
+
+Bash Command
+
 cd backend
 ./mvnw spring-boot:run
-```
 
 The backend runs on port `8080` and exposes the student API at `http://localhost:8080/api/students`.
+i hardcoded the backend to run on port 8080. 
 
-### 4. Start the frontend
+### 4.  Start the frontend
 
 Open a separate terminal in the `frontend` folder and run:
 
@@ -97,6 +108,8 @@ npm run dev
 ```
 
 Vite will start the frontend on its default port, usually `5173`. Open the browser to the URL shown in the terminal.
+
+when you restart frontend, you have to kill the ghost ports to make sure, the project runs on port 5173, because i hardcoded the backend for port 5173 only.
 
 ### 5. Use the application
 

@@ -1,14 +1,11 @@
 :root {
-  /* Apple-inspired Dark Mode Palette */
   --bg: #1c1c1e;
   --text: #ffffff;
   --accent: #0071e3;
-
-  /* The "Secret Sauce" for Apple's aesthetic */
   --font-apple: -apple-system, BlinkMacSystemFont, "SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-/* Global Reset */
+/* GLobal reset */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -16,7 +13,6 @@
 }
 
 body {
-  /* Applying the Apple font stack and rendering smoothing */
   font-family: var(--font-apple);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -33,14 +29,12 @@ body {
   margin: 0;
 }
 
-/* Ensure the portal is centered within the viewport */
 #root {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-/* Global Headings */
 h1, h2 {
   font-family: var(--font-apple);
   font-weight: 600;
